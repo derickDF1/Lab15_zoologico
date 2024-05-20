@@ -8,12 +8,12 @@ namespace Lab15_zoologico
     public class Serpientes
     {
         public bool Venenosa { get; set; }
-        public string TiempoIncubacion { get; set; }
+        public string Longitud { get; set; }
 
         public Serpientes()
         {
             Venenosa = false;
-            TiempoIncubacion = string.Empty;
+            Longitud = string.Empty;
         }
     }
 }
